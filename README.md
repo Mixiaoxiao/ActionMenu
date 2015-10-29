@@ -20,13 +20,13 @@ Usage
 #####Show menus for a view 显示view的菜单
 
 ```java
-  ActionMenu.build(activity, view).addActions(actions...).setListener(actionMenuListener).show();
+ActionMenu.build(activity, view).addActions(actions...).setListener(actionMenuListener).show();
 ```
 
 #####Show description for a view 显示view的介绍
 
 ```java
-  ActionMenu.build(activity, view).addAction(description).show();
+ActionMenu.build(activity, view).addAction(description).show();
 ```
 
 
