@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff121619"
+        android:text="This a sample button in dialog, click the button to show ActionMenus in dialog." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="onClickSample"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
