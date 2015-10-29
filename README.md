@@ -3,15 +3,16 @@ ActionMenu
 
 `ActionMenu` is a lite library to show an action-menubar like the menus(copy, select all, paste) for UILabel in iOS.
 
-一个轻巧易用的菜单库，显示类似于IOS中UILabel的菜单（复制、全选、粘贴）的菜单条。
+一个轻巧易用的菜单库，仅需一行代码，即可显示类似于IOS中UILabel的文字菜单（复制、全选、粘贴）的菜单条。
 
 Demo
----
+-----
 
-###Demo
-![NineGag](https://raw.github.com/Mixiaoxiao/ActionMenu/master/Demo/demo.jpg)
+![ActionMenu](https://raw.github.com/Mixiaoxiao/ActionMenu/master/Demo/demo.jpg)
 
-* The arrow of `ActionMenu` will be always at center-horizontal|top of the anchor.
+
+* The arrow of `ActionMenu` will be always at `center-horizontal|top` of the anchor.
+* `ActionMenu`的指示箭头总是会显示在anchor的上方中间位置。
 
 Usage
 -----
@@ -28,6 +29,7 @@ Usage
     ActionMenu.build(activity, view).addAction(description).show();
 ```
 
+
 Notice
 --------
 `ActionMenu` cannot show correctly when the the width of ActioinItems is larger than the Activity's width.
@@ -38,7 +40,7 @@ I may fix this in the near future.
 
 Proguard
 --------
-In order to use this library with proguard, You need to add, well... ,`nothing` to your `proguard.cfg`.
+In order to use this library with proguard, you need to add, well..., `nothing` to your `proguard.cfg`.
 
 
 
